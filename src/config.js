@@ -65,12 +65,13 @@ function setUpParams() {
     .option('s', {
     alias: 'service',
     description: 'service-for path',
-    default: 'sample-node-api'
+    
+        'sample-node-api'
     })
     .option('p', {
     alias: 'port',
     description: 'listening port',
-    default: 18000
+    default: 80
     })
     .option('k', {
     alias: 'key',
